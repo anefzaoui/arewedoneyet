@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- validates bing webmaster tools -->
+  <title>Are We Done Yet?</title>
+  <meta name="description" content="Are We Done Yet? Website to track progress of one project's bugs in Bugzilla.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Are We Done Yet?">
+  <meta property="og:url" content="PAGE URL">
+  <meta property="og:image" content="https://mozorg.cdn.mozilla.net/media/img/mozorg/mozilla-256.jpg">
+  <meta property="og:title" content="Are We Done Yet?">
+  <meta property="og:description" content="">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@MozillaTunisia">
+  <meta name="twitter:domain" content="mozilla-tunisia.org">
+  <link rel="shortcut icon" href="//mozorg.cdn.mozilla.net/media/img/favicon.ico">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="//mozorg.cdn.mozilla.net/media/img/favicon/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="196x196" href="//mozorg.cdn.mozilla.net/media/img/favicon/favicon-196x196.png">
+  <script src="js/utils.js"></script>
+  <link rel="stylesheet" href="style/tablesorter/themes/blue/style.css" />
+  <link rel="stylesheet" href="style/style.css" />
+
+</head>
+
+<body>
+  <div id="outer-wrapper">
+    <div id="wrapper">
+      <h2>Are We Done Yet?</h2>
+      <h3>
+        Rumour has it you wanna track a projec's progress! Find it here
+        <select name="prjects" id="projects">
+          <option name="landing">Projects</option>
+        </select>
+      </h3>
+
+      <div id="board">
+        <h2>Firefox OS 2.2 RTL progress:</h2>
+        <br/>
+        <table id="bugs" class="tablesorter">
+          <thead>
+            <tr>
+              <td>Bug Number - Name</td>
+              <td>Dependiencies</td>
+              <td>Status</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#">Bug 1096689</a> - (fmradio-rtl) [META] [RTL] FM Radio</td>
+              <td>2 Dependencies Closed, 0 Open</td>
+              <td>Done</td>
+            </tr>
+            <tr>
+              <td><a href="#">Bug 1088436</a> - (cost-control-rtl) [META] [RTL] Cost Control</td>
+              <td>6 Dependencies Closed, 3 Open</td>
+              <td>In progress</td>
+            </tr>
+            <tr>
+              <td><a href="#">Bug 1071918</a> - (dialer-rtl) [META] [RTL] Dialer</td>
+              <td>0 Dependencies Closed, 16 Open</td>
+              <td>New</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+
+
+    </div><!-- close #wrapper -->
+  </div><!-- close #outer-wrapper -->
+</body>
+
+</html>

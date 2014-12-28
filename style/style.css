@@ -1,0 +1,59 @@
+html,body {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+article,aside,canvas,figure,figure img,figcaption,hgroup,footer,header,main,nav,section,audio,video{
+	display:block
+}
+
+a img{
+	border:0
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: sans-serif;
+	font-weight:normal;
+	text-shadow:none
+}
+
+body{
+	background-color: white;
+	font-size: 13px;
+	color: rgb(45,45,45);
+}
+
+#outer-wrapper{
+	width: 100%;
+}
+
+#wrapper{
+	margin: 10px;
+}
+
+/*
+#bugs{
+	border: 1px solid black;
+}
+
+table tr td{
+	padding: 2px 15px 2px 5px;
+	font-size: 15px;
+	border: 1px solid black;
+	color: black;
+}
+*/
+
+.green{
+	background-color: green;
+	color: white;
+}
+.yellow{
+	background-color: #FF9900;
+	color: white;
+}
+.red{
+	background-color: red;
+	color: white;
+}

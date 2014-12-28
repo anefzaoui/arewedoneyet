@@ -1,0 +1,22 @@
+.action-big {
+  width: 450px;
+  height: 45px;
+  font-size: 1.125rem;
+  line-height: 43px;
+  font-weight: normal;
+  box-shadow: none;
+  border-radius: 7px;
+  margin: 20px auto;
+  padding: 5px 0 !important;
+  color: white;
+}
+.action-big:hover,
+.action-big:visited {
+  color: white!important;
+}
+.blue {
+  background-color: #0095DD;
+}
+.blue:hover {
+  background-color: #00A6F7;
+}
