@@ -1,7 +1,10 @@
-"projects" : [
+[
   {
-    "name": "Firefox OS 2.2 RTL",
-    "id": "fx2_2_rtl"
+    "id": "fx_2_2_rtl",
+    "name": "Firefox OS 2.2 RTL"
+  },
+  {
+    "id": "fx_privacy_panel",
+    "name": "Firefox OS Privacy Panel"
   }
-
 ]
